@@ -49,8 +49,8 @@ int main(){
 		
 		else if(command == "INFERENCE"){cout << "issuing query" <<endl;}
 		else if(command == "DUMP"){M.dump(); cout << "~KB and RB dumped~" <<endl;}
-	    	else if(command =='exit'){break;}
-		else {cout << "command not found" <,endl;}
+	    	else if(command == "EXIT"){break;}
+		else {cout << "command not found" <<endl;}
     }
 	return 0;
 	
